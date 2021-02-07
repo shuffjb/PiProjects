@@ -1,0 +1,24 @@
+/*---------------------------------------------------------------*/
+/* Pi USB Notes                                                  */
+/* 2021-01-08 JBS Created                                        */
+/*---------------------------------------------------------------*/
+
+/*
+USB Ports
+
+Bus 001 Device 004: ID 046d:c52b Logitech, Inc. Unifying Receiver
+Bus 001 Device 005: ID 0424:7800 Standard Microsystems Corp. 
+Bus 001 Device 003: ID 0424:2514 Standard Microsystems Corp. USB 2.0 Hub
+Bus 001 Device 002: ID 0424:2514 Standard Microsystems Corp. USB 2.0 Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+pi@MikeandJackiePrintServer:~ $ lsusb
+Bus 001 Device 004: ID 046d:c52b Logitech, Inc. Unifying Receiver
+Bus 001 Device 006: ID 2341:0043 Arduino SA Uno R3 (CDC ACM)
+Bus 001 Device 005: ID 0424:7800 Standard Microsystems Corp. 
+Bus 001 Device 003: ID 0424:2514 Standard Microsystems Corp. USB 2.0 Hub
+Bus 001 Device 002: ID 0424:2514 Standard Microsystems Corp. USB 2.0 Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+The devise that shows up when arduino is plugged in is
+/dev/ttyACM0  which is com port 24 according to the docs
+
+*/
